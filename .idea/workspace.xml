@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7958391f-af80-46fe-b0cd-3c84addb39a9" name="Changes" comment="ändrat på system">
+    <list default="true" id="7958391f-af80-46fe-b0cd-3c84addb39a9" name="Changes" comment="ändrat på main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698403018037</updated>
       <workItem from="1698403019127" duration="2000" />
-      <workItem from="1698404340120" duration="908000" />
+      <workItem from="1698404340120" duration="2059000" />
     </task>
     <task id="LOCAL−00001" summary="ändrat på system">
       <option name="closed" value="true" />
@@ -61,7 +61,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1698404468511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="ändrat på main">
+      <option name="closed" value="true" />
+      <created>1698405341564</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1698405341564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ändrat på system" />
-    <option name="LAST_COMMIT_MESSAGE" value="ändrat på system" />
+    <MESSAGE value="ändrat på main" />
+    <option name="LAST_COMMIT_MESSAGE" value="ändrat på main" />
   </component>
 </project>

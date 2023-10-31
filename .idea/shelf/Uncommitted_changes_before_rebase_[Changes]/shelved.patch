@@ -1,0 +1,153 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.sql.SQLOutput;\r\n\r\n// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,\r\n// then press Enter. You can now see whitespace characters in your code.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n        String x = \"Jag är hungring vad finns det att äta ?\";\r\n        String y = \"Korv med mos\";\r\n\r\n\r\n        System.out.println(x);\r\n        System.out.println(y);\r\n        System.out.println(\"HELLOW\");\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision ac384deb0fbdcc03a83e595a8ea990b120815c96)
++++ b/src/Main.java	(date 1698743329325)
+@@ -8,10 +8,10 @@
+         String x = "Jag är hungring vad finns det att äta ?";
+         String y = "Korv med mos";
+ 
+-
++        System.out.println("SSS");
+         System.out.println(x);
+         System.out.println(y);
+-        System.out.println("HELLOW");
++       
+ 
+     }
+ }
+\ No newline at end of file
+Index: src/Ships.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ships.java b/src/Ships.java
+new file mode 100644
+--- /dev/null	(date 1698743578586)
++++ b/src/Ships.java	(date 1698743578586)
+@@ -0,0 +1,4 @@
++public class Ships {
++
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7958391f-af80-46fe-b0cd-3c84addb39a9\" name=\"Changes\" comment=\"ändrat på main\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 5\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2XLKeWVletEdbuWVr1VNuWw6ndz\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"SafaFx\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"settings.editor.selected.configurable\": \"gradle.compiler\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7958391f-af80-46fe-b0cd-3c84addb39a9\" name=\"Changes\" comment=\"\" />\r\n      <created>1698403018037</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1698403018037</updated>\r\n      <workItem from=\"1698403019127\" duration=\"2000\" />\r\n      <workItem from=\"1698404340120\" duration=\"2059000\" />\r\n    </task>\r\n    <task id=\"LOCAL−00001\" summary=\"ändrat på system\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698404468511</created>\r\n      <option name=\"number\" value=\"LOCAL−00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\r\n      <updated>1698404468511</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00002\" summary=\"ändrat på main\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698405341564</created>\r\n      <option name=\"number\" value=\"LOCAL−00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\r\n      <updated>1698405341564</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ändrat på system\" />\r\n    <MESSAGE value=\"ändrat på main\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ändrat på main\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ac384deb0fbdcc03a83e595a8ea990b120815c96)
++++ b/.idea/workspace.xml	(date 1698743446274)
+@@ -4,7 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7958391f-af80-46fe-b0cd-3c84addb39a9" name="Changes" comment="ändrat på main">
++    <list default="true" id="7958391f-af80-46fe-b0cd-3c84addb39a9" name="Changes" comment="lagdt in Hellow">
++      <change afterPath="$PROJECT_DIR$/src/Ships.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+     </list>
+@@ -13,6 +14,13 @@
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+@@ -21,28 +29,28 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 5
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 5
++}</component>
+   <component name="ProjectId" id="2XLKeWVletEdbuWVr1VNuWw6ndz" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "SafaFx",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "settings.editor.selected.configurable": "gradle.compiler",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;SafaFx&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;gradle.compiler&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -52,7 +60,8 @@
+       <option name="presentableId" value="Default" />
+       <updated>1698403018037</updated>
+       <workItem from="1698403019127" duration="2000" />
+-      <workItem from="1698404340120" duration="2059000" />
++      <workItem from="1698404340120" duration="2242000" />
++      <workItem from="1698406636266" duration="1220000" />
+     </task>
+     <task id="LOCAL−00001" summary="ändrat på system">
+       <option name="closed" value="true" />
+@@ -68,7 +77,14 @@
+       <option name="presentableId" value="LOCAL−00002" />
+       <updated>1698405341564</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL−00003" summary="lagdt in Hellow">
++      <option name="closed" value="true" />
++      <created>1698406512486</created>
++      <option name="number" value="LOCAL−00003" />
++      <option name="presentableId" value="LOCAL−00003" />
++      <updated>1698406512486</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -88,6 +104,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="ändrat på system" />
+     <MESSAGE value="ändrat på main" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ändrat på main" />
++    <MESSAGE value="lagdt in Hellow" />
++    <option name="LAST_COMMIT_MESSAGE" value="lagdt in Hellow" />
+   </component>
+ </project>
+\ No newline at end of file

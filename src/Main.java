@@ -8,10 +8,10 @@ public class Main {
         String x = "Jag är hungring vad finns det att äta ?";
         String y = "Korv med mos";
 
-
+        System.out.println("SSS");
         System.out.println(x);
         System.out.println(y);
-        System.out.println("HELLOW");
+       
 
     }
 }

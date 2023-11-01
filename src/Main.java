@@ -27,6 +27,9 @@ public class Main {
             System.out.println("test"+(i-1));
         }
 
+        Addition add = new Addition();
+
+        System.out.println(add.additionMethod(5,20));
 
 
     }
